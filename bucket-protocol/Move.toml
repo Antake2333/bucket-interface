@@ -21,7 +21,7 @@ published-at = "0x8c9b30689ab45a72911b3c9a7acf4953180ca3bb31d8f4e69fc4b11a932722
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
-BucketOracle = { git = "https://github.com/Bucket-Protocol/oracle.git", rev = "mainnet"  }
+BucketOracle = { git = "https://github.com/Antake2333/oracle.git", rev = "main"  }
 # BucketOracle = { git = "https://github.com/Bucket-Protocol/oracle.git", rev = "test-only"  }
 BucketFramework = { local = "../framework" }
 Flask = { git = "https://github.com/Sparkling-Finance/contract.git", subdir = "flask", rev = "main"}
